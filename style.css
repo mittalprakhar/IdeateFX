@@ -1,0 +1,85 @@
+.center {
+    -fx-alignment: center;
+}
+
+.header {
+    -fx-padding: 16px 5px;
+    -fx-background-color: #242424;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-width: 5px;
+    -fx-border-color: #eeb211;
+}
+
+.title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #eeb211;
+}
+
+.text-area {
+    -fx-min-height: 60;
+    -fx-max-height: 60;
+}
+
+Button {
+    -fx-background-color: #eeb211;
+    -fx-padding: 7px 12px;
+    -fx-text-fill: #000;
+    -fx-cursor: hand;
+}
+
+Button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.7), 3, 0, 0, 1);
+}
+
+.roundbtn {
+    -fx-min-height: 25px;
+    -fx-max-height: 25px;
+    -fx-min-width: 25px;
+    -fx-max-width: 25px;
+    -fx-text-fill: #242424;
+    -fx-padding: 0;
+}
+
+.sort {
+    -fx-background-color: #ddd;
+}
+
+.delete {
+    -fx-background-color: #ddd;
+}
+
+Label {
+    -fx-font-size: 13px;
+}
+
+VBox {
+    -fx-spacing: 10px;
+}
+
+.column {
+    -fx-spacing: 20px;
+    -fx-padding: 5px 25px 25px 25px;
+}
+
+.popup-pane {
+    -fx-padding: 25px;
+    -fx-alignment: center;
+}
+
+.dialog-pane:header .header-panel {
+    -fx-background-color: #242424;
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-width: 5px;
+    -fx-border-color: #eeb211;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-text-fill: #eeb211;
+}
+
+.dialog-pane Button{
+    -fx-padding: 4px 8px;
+}

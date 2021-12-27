@@ -1,7 +1,7 @@
 # IdeateFX
 An interactive JavaFX application that accelerates the process of coming up with startup ideas, and helps quantify and sort them on the basis of quantitative metrics.
 
-![Demo](https://github.com/mittalprakhar/IdeateFX/demo.jpg?raw=true)
+<img src="https://github.com/mittalprakhar/IdeateFX/blob/main/demo.jpg?raw=true" alt="Demo" width="600"/>
 
 ### Features
 - Questions to help brainstorm startup ideas
